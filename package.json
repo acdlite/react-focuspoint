@@ -1,0 +1,32 @@
+{
+  "name": "react-focuspoint",
+  "version": "1.0.0",
+  "description": "A React component for 'responsive cropping' with jquery-focuspoint",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acdlite/react-focuspoint.git"
+  },
+  "dependencies": {
+    "react": "^0.12.1"
+  },
+  "devDependencies": {
+    "6to5": "^1.13.11"
+  },
+  "scripts": {
+    "build": "6to5 src -d dist --modules commonInterop",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "jquery-focuspoint",
+    "focuspoint",
+    "jquery",
+    "responsive",
+    "images",
+    "cropping",
+    "art direction"
+  ],
+  "author": "Andrew Clark <acdlite@me.com>",
+  "license": "MIT"
+}
